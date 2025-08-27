@@ -1,6 +1,16 @@
 # i dont know if this works i didnt actually check it :/
+# Import the Tkinter library for the GUI
+import tkinter as tk
+
+# Define a class for the game itself
 class PongGame:
     def __init__(self, master):
+        """
+        Initializes the Pong game.
+
+        Args:
+            master: The root Tkinter window.
+        """
         self.master = master
         self.master.title("Python Pong")
         self.master.geometry("800x600")
@@ -19,6 +29,7 @@ class PongGame:
         self.player_score = 0
         self.computer_score = 0
         self.game_running = False
+
         # Create game elements
         self.player_paddle = self.canvas.create_rectangle(
             50, 250, 50 + self.paddle_width, 250 + self.paddle_height, fill="#3498db"
@@ -29,6 +40,7 @@ class PongGame:
         self.ball = self.canvas.create_oval(
             390, 290, 390 + self.ball_radius * 2, 290 + self.ball_radius * 2, fill="#f1c40f"
         )
+
         # Create score text
         self.player_score_text = self.canvas.create_text(
             200, 50, text=f"Player: {self.player_score}", fill="white", font=("Helvetica", 24)
