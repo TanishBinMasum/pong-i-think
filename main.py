@@ -139,3 +139,14 @@ class PongGame:
 
         # Continue the game loop after a short delay
         self.master.after(10, self.game_loop)
+
+# Main part of the script
+if __name__ == "__main__":
+    # Create the main window
+    root = tk.Tk()
+
+    # Create and run the game
+    game = PongGame(root)
+
+    # Start the Tkinter event loop
+    root.mainloop()
