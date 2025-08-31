@@ -1,4 +1,4 @@
-# i dont know if this works i didnt actually check it :/
+# seems to work ok for me
 # Import the Tkinter library for the GUI
 import tkinter as tk
 
