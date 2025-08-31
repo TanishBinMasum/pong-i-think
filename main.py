@@ -92,7 +92,7 @@ class PongGame:
                 self.canvas.move(self.player_paddle, 0, self.paddle_speed)
 
     def move_computer_paddle(self):
-        """Basic AI to move the computer paddle towards the ball."""
+# Basic AI to move the computer paddle towards the ball.
         ball_coords = self.canvas.coords(self.ball)
         paddle_coords = self.canvas.coords(self.computer_paddle)
         ball_y_center = (ball_coords[1] + ball_coords[3]) / 2
