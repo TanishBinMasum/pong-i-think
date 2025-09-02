@@ -1,4 +1,4 @@
-# a simple pong game made with python and Tkinter
+# A simple pong game made with python and Tkinter
 
 We used tkinter to create ui, because idk if running pong on console would be very convenient, let alone possible. 
 
