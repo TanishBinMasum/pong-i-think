@@ -1,4 +1,4 @@
-# Seems to work OK for me
+# sweet sweet commits 🤑🤑
 # Import the Tkinter library for the GUI
 import tkinter as tk
 
