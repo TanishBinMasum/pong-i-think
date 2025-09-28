@@ -4,7 +4,7 @@ We used tkinter to create ui, because i dunno if running pong on console would b
 
 If you have any suggestions, please create a pull request and i will review it! ...eventually
 
-Play pong until you get bored and go to smth else because, 
+Play pong until you get bored and go to smth else because, ill assume you arent a pong enthusiast as i am.
 
 I hope you like it, i think its pretty cool!
 
