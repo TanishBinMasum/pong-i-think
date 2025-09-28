@@ -7,3 +7,5 @@ If you have any suggestions, please create a pull request and i will review it! 
 Play pong until you get bored and go to smth else
 
 I hope you like it, i think its pretty cool!
+
+(by we i mean I. im the only one here)
