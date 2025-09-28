@@ -6,4 +6,4 @@ If you have any suggestions, please create a pull request and i will review it! 
 
 Play pong until you get bored and go to smth else
 
-I hope you like it, u think its pretty cool!
+I hope you like it, i think its pretty cool!
